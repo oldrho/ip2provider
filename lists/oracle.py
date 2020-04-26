@@ -1,5 +1,6 @@
 import ipaddress
 import json
+import requests
 
 # https://docs.cloud.oracle.com/en-us/iaas/tools/public_ip_ranges.json
 
@@ -11,27 +12,51 @@ def check(ips):
 	results = []
 
 	# Load json data
-	with open("data/oracle.json", "r") as f:
-		data = json.loads(f.read())
+	with open("data/oracle.txt", "r") as f:
+		data = f.read().splitlines()
 		f.close()
 
-	# Loop through all regions
-	for region_data in data['regions']:
-		region = region_data['region']
+	# Loop each route
+	for route in data:
+		(cidr,provider,service,region) = route.split()
 
-		# Loop through each CIDR block
-		for block in region_data['cidrs']:
-			# Loop through each IP
-			for ip in ips:
-				cidr = block['cidr']
-				service = "/".join(block['tags'])
-
-				if ipaddress.ip_address(ip) in ipaddress.ip_network(cidr):
-					results.append({
-						'ip': ip,
-						'provider': 'oracle',
-						'service': service,
-						'region': region
-						})
+		# Loop each IP
+		for ip in ips:
+			if ipaddress.ip_address(ip) in ipaddress.ip_network(cidr):
+				results.append({
+					'ip': ip,
+					'provider': provider,
+					'service': service,
+					'region': region
+					})
 
 	return results
+
+
+
+def update():
+	results = []
+
+	response = requests.get('https://docs.cloud.oracle.com/en-us/iaas/tools/public_ip_ranges.json')
+
+	if response.status_code != 200:
+		return False
+
+	data = json.loads(response.text)
+
+	for region_info in data['regions']:
+		region = region_info['region']
+
+		for cidr_info in region_info['cidrs']:
+			cidr = cidr_info['cidr']
+			service = "/".join(cidr_info['tags'])
+
+			results.append("%s %s %s %s" % (cidr, 'oracle', service, region))
+
+
+	# Write results to file
+	with open('data/oracle.txt', 'w') as f:
+		f.write("\n".join(results))
+		f.close()
+
+	return len(results)
