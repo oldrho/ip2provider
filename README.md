@@ -21,3 +21,8 @@ Check which cloud provider is hosting a particular IP address. Some providers wi
 
 ## Notes
 
+**Supported Providers**
+
+* Microsoft Azure (Public and Government Clouds)
+* Amazon Web Services (AWS)
+* Oracle Cloud
