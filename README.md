@@ -8,7 +8,11 @@ Check which cloud provider is hosting a particular IP address. Some providers wi
 
 ## Installation
 
-**TODO**
+```
+git clone <ADDRESS> *TODO*
+cd ip2provider
+pip3 install -r requirements.txt
+```
 
 ## Usage
 
