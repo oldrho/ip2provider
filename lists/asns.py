@@ -35,6 +35,7 @@ def update():
 	providers = {
 		'alibaba': 'AS45102',
 		'digitalocean': 'AS14061',
+		'ibm': 'AS36351',
 		'linode': 'AS63949',
 		'rackspace': 'AS27357'
 	}
