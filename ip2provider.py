@@ -8,6 +8,7 @@ import json
 
 import lists.azure as azure
 import lists.aws as aws
+import lists.oracle as oracle
 
 
 
@@ -71,6 +72,7 @@ def check(ips):
 	checks = []
 	checks += azure.check(ips)
 	checks += aws.check(ips)
+	checks += oracle.check(ips)
 
 	return checks
 
