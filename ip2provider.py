@@ -6,8 +6,9 @@ import sys
 
 import json
 
-import lists.azure as azure
+import lists.asns as asns
 import lists.aws as aws
+import lists.azure as azure
 import lists.gcp as gcp
 import lists.oracle as oracle
 
@@ -71,8 +72,9 @@ def check(ips):
 
 	# Check each provider
 	checks = []
-	checks += azure.check(ips)
+	checks += asns.check(ips)
 	checks += aws.check(ips)
+	checks += azure.check(ips)
 	checks += gcp.check(ips)
 	checks += oracle.check(ips)
 
@@ -106,7 +108,7 @@ def result_merge(current, new):
 	current['service'] = new['service'] if not current['service'] and new['service'] else current['service']
 	current['region'] = new['region'] if (not current['region'] and new['region']) else current['region']
 
-	if current['provider'] is not new['provider']:
+	if current['provider'] != new['provider']:
 		current['provider'] = 'conflict'
 
 
