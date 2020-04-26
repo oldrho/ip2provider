@@ -1,73 +1,101 @@
-8.34.208.0/20
-8.35.192.0/21
-8.35.200.0/23
-23.236.48.0/20
-23.251.128.0/19
-34.64.0.0/11
-34.96.0.0/14
-34.100.0.0/16
-34.102.0.0/15
-34.104.0.0/14
-34.124.0.0/18
-34.124.64.0/20
-34.124.80.0/23
-34.124.84.0/22
-34.124.88.0/23
-34.124.92.0/22
-34.125.0.0/16
-35.184.0.0/14
-35.188.0.0/15
-35.190.0.0/17
-35.190.128.0/18
-35.190.192.0/19
-35.190.224.0/20
-35.190.240.0/22
-35.192.0.0/14
-35.196.0.0/15
-35.198.0.0/16
-35.199.0.0/17
-35.199.128.0/18
-35.200.0.0/13
-35.208.0.0/13
-35.216.0.0/15
-35.219.192.0/24
-35.220.0.0/14
-35.224.0.0/13
-35.232.0.0/15
-35.234.0.0/16
-35.235.0.0/17
-35.235.192.0/20
-35.235.216.0/21
-35.235.224.0/20
-35.236.0.0/14
-35.240.0.0/13
-104.154.0.0/15
-104.196.0.0/14
-107.167.160.0/19
-107.178.192.0/18
-108.59.80.0/20
-108.170.192.0/20
-108.170.208.0/21
-108.170.216.0/22
-108.170.220.0/23
-108.170.222.0/24
-130.211.4.0/22
-130.211.8.0/21
-130.211.16.0/20
-130.211.32.0/19
-130.211.64.0/18
-130.211.128.0/17
-146.148.2.0/23
-146.148.4.0/22
-146.148.8.0/21
-146.148.16.0/20
-146.148.32.0/19
-146.148.64.0/18
-162.216.148.0/22
-162.222.176.0/21
-173.255.112.0/20
-192.158.28.0/22
-199.192.112.0/22
-199.223.232.0/22
-199.223.236.0/23
-208.68.108.0/23
+130.211.64.0/18 gcp GoogleCloudPlatform unknown
+130.211.128.0/17 gcp GoogleCloudPlatform unknown
+146.148.2.0/23 gcp GoogleCloudPlatform unknown
+146.148.4.0/22 gcp GoogleCloudPlatform unknown
+146.148.8.0/21 gcp GoogleCloudPlatform unknown
+146.148.16.0/20 gcp GoogleCloudPlatform unknown
+146.148.32.0/19 gcp GoogleCloudPlatform unknown
+146.148.64.0/18 gcp GoogleCloudPlatform unknown
+162.216.148.0/22 gcp GoogleCloudPlatform unknown
+162.222.176.0/21 gcp GoogleCloudPlatform unknown
+173.255.112.0/20 gcp GoogleCloudPlatform unknown
+192.158.28.0/22 gcp GoogleCloudPlatform unknown
+199.192.112.0/22 gcp GoogleCloudPlatform unknown
+199.223.232.0/22 gcp GoogleCloudPlatform unknown
+199.223.236.0/23 gcp GoogleCloudPlatform unknown
+208.68.108.0/23 gcp GoogleCloudPlatform unknown
+2600:1900::/35 gcp GoogleCloudPlatform unknown
+8.34.208.0/20 gcp GoogleCloudPlatform unknown
+8.35.192.0/21 gcp GoogleCloudPlatform unknown
+8.35.200.0/23 gcp GoogleCloudPlatform unknown
+23.236.48.0/20 gcp GoogleCloudPlatform unknown
+23.251.128.0/19 gcp GoogleCloudPlatform unknown
+34.64.0.0/11 gcp GoogleCloudPlatform unknown
+34.96.0.0/14 gcp GoogleCloudPlatform unknown
+34.100.0.0/16 gcp GoogleCloudPlatform unknown
+34.102.0.0/15 gcp GoogleCloudPlatform unknown
+34.104.0.0/14 gcp GoogleCloudPlatform unknown
+34.124.0.0/18 gcp GoogleCloudPlatform unknown
+34.124.64.0/20 gcp GoogleCloudPlatform unknown
+34.124.80.0/23 gcp GoogleCloudPlatform unknown
+34.124.84.0/22 gcp GoogleCloudPlatform unknown
+34.124.88.0/23 gcp GoogleCloudPlatform unknown
+34.124.92.0/22 gcp GoogleCloudPlatform unknown
+34.125.0.0/16 gcp GoogleCloudPlatform unknown
+35.184.0.0/14 gcp GoogleCloudPlatform unknown
+35.188.0.0/15 gcp GoogleCloudPlatform unknown
+35.190.0.0/17 gcp GoogleCloudPlatform unknown
+35.190.128.0/18 gcp GoogleCloudPlatform unknown
+35.190.192.0/19 gcp GoogleCloudPlatform unknown
+35.190.224.0/20 gcp GoogleCloudPlatform unknown
+35.190.240.0/22 gcp GoogleCloudPlatform unknown
+35.192.0.0/14 gcp GoogleCloudPlatform unknown
+35.196.0.0/15 gcp GoogleCloudPlatform unknown
+35.198.0.0/16 gcp GoogleCloudPlatform unknown
+35.199.0.0/17 gcp GoogleCloudPlatform unknown
+35.199.128.0/18 gcp GoogleCloudPlatform unknown
+35.200.0.0/13 gcp GoogleCloudPlatform unknown
+35.208.0.0/13 gcp GoogleCloudPlatform unknown
+35.216.0.0/15 gcp GoogleCloudPlatform unknown
+35.219.192.0/24 gcp GoogleCloudPlatform unknown
+35.220.0.0/14 gcp GoogleCloudPlatform unknown
+35.224.0.0/13 gcp GoogleCloudPlatform unknown
+35.232.0.0/15 gcp GoogleCloudPlatform unknown
+35.234.0.0/16 gcp GoogleCloudPlatform unknown
+35.235.0.0/17 gcp GoogleCloudPlatform unknown
+35.235.192.0/20 gcp GoogleCloudPlatform unknown
+35.235.216.0/21 gcp GoogleCloudPlatform unknown
+35.235.224.0/20 gcp GoogleCloudPlatform unknown
+35.236.0.0/14 gcp GoogleCloudPlatform unknown
+35.240.0.0/13 gcp GoogleCloudPlatform unknown
+104.154.0.0/15 gcp GoogleCloudPlatform unknown
+104.196.0.0/14 gcp GoogleCloudPlatform unknown
+107.167.160.0/19 gcp GoogleCloudPlatform unknown
+107.178.192.0/18 gcp GoogleCloudPlatform unknown
+108.59.80.0/20 gcp GoogleCloudPlatform unknown
+108.170.192.0/20 gcp GoogleCloudPlatform unknown
+108.170.208.0/21 gcp GoogleCloudPlatform unknown
+108.170.216.0/22 gcp GoogleCloudPlatform unknown
+108.170.220.0/23 gcp GoogleCloudPlatform unknown
+108.170.222.0/24 gcp GoogleCloudPlatform unknown
+130.211.4.0/22 gcp GoogleCloudPlatform unknown
+130.211.8.0/21 gcp GoogleCloudPlatform unknown
+130.211.16.0/20 gcp GoogleCloudPlatform unknown
+130.211.32.0/19 gcp GoogleCloudPlatform unknown
+35.190.247.0/24 gcp GoogleService unknown
+64.233.160.0/19 gcp GoogleService unknown
+66.102.0.0/20 gcp GoogleService unknown
+66.249.80.0/20 gcp GoogleService unknown
+72.14.192.0/18 gcp GoogleService unknown
+74.125.0.0/16 gcp GoogleService unknown
+108.177.8.0/21 gcp GoogleService unknown
+173.194.0.0/16 gcp GoogleService unknown
+209.85.128.0/17 gcp GoogleService unknown
+216.58.192.0/19 gcp GoogleService unknown
+216.239.32.0/19 gcp GoogleService unknown
+2001:4860:4000::/36 gcp GoogleService unknown
+2404:6800:4000::/36 gcp GoogleService unknown
+2607:f8b0:4000::/36 gcp GoogleService unknown
+2800:3f0:4000::/36 gcp GoogleService unknown
+2a00:1450:4000::/36 gcp GoogleService unknown
+2c0f:fb50:4000::/36 gcp GoogleService unknown
+172.217.0.0/19 gcp GoogleService unknown
+172.217.32.0/20 gcp GoogleService unknown
+172.217.128.0/19 gcp GoogleService unknown
+172.217.160.0/20 gcp GoogleService unknown
+172.217.192.0/19 gcp GoogleService unknown
+172.253.56.0/21 gcp GoogleService unknown
+172.253.112.0/20 gcp GoogleService unknown
+108.177.96.0/19 gcp GoogleService unknown
+35.191.0.0/16 gcp GoogleService unknown
+130.211.0.0/22 gcp GoogleService unknown
