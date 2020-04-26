@@ -54,7 +54,7 @@ def main():
 
 	# Results
 	results = check(args.ip.split(','))
-	if args.output is not 'raw':
+	if args.output != 'raw':
 		results = results_clean(results)
 	output(results, args.output)
 # End of main
