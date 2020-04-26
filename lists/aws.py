@@ -1,6 +1,8 @@
 import ipaddress
 import json
 
+# https://ip-ranges.amazonaws.com/ip-ranges.json
+
 def check(ips):
 	if isinstance(ips, str):
 		ips = [ips]

@@ -1,6 +1,8 @@
 import ipaddress
 import json
 
+# https://docs.cloud.oracle.com/en-us/iaas/tools/public_ip_ranges.json
+
 def check(ips):
 	if isinstance(ips, str):
 		ips = [ips]
