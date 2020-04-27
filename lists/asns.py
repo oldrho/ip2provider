@@ -10,47 +10,68 @@ def check(ips):
 	# Initialize results
 	results = []
 
-	# Load json data
-	with open("data/asns.txt", "r") as f:
-		data = f.read().splitlines()
-		f.close()
+	# Files
+	files = [
+		'data/alibaba.txt',
+		'data/digitalocean.txt',
+		'data/ibm.txt',
+		'data/linode.txt',
+		'data/rackspace.txt'
+	]
 
-	# Loop each route
-	for route in data:
-		(cidr,provider,service,region) = route.split()
 
-		# Loop each IP
-		for ip in ips:
-			if ipaddress.ip_address(ip) in ipaddress.ip_network(cidr):
-				results.append({
-					'ip': ip,
-					'provider': provider,
-					'service': service,
-					'region': region
-					})
+
+	def check_file(file):
+		nonlocal results
+		
+		# Load json data
+		with open(file, "r") as f:
+			data = f.read().splitlines()
+			f.close()
+
+		# Loop each route
+		for route in data:
+			(cidr,provider,service,region) = route.split()
+
+			# Loop each IP
+			for ip in ips:
+				if ipaddress.ip_address(ip) in ipaddress.ip_network(cidr):
+					results.append({
+						'ip': ip,
+						'provider': provider,
+						'service': service,
+						'region': region
+						})
+
+	for file in files:
+		check_file(file)
 
 	return results
 
 def update():
-	providers = {
-		'alibaba': 'AS45102',
-		'digitalocean': 'AS14061',
-		'ibm': 'AS36351',
-		'linode': 'AS63949',
-		'rackspace': 'AS27357'
-	}
+	providers = [
+		['alibaba', 'AS45102', 'data/alibaba.txt'],
+		['digitalocean', 'AS14061', 'data/digitalocean.txt'],
+		['ibm', 'AS36351', 'data/ibm.txt'],
+		['linode', 'AS63949', 'data/linode.txt'],
+		['rackspace', 'AS27357', 'data/rackspace.txt']
+	]
 
-	data = []
 
-	for provider, asn in providers.items():
+	for row in providers:
+		(provider, asn, file) = row
+		data = []
+		
 		routes = asn_routes(asn)
 
 		for route in routes:
 			data.append('%s %s unknown unknown' % (route, provider))
 
-	with open('data/asns.txt', 'w') as f:
-		f.write("\n".join(data))
-		f.close()
+		with open(file, 'w') as f:
+			f.write("\n".join(data))
+			f.close()
+
+
 
 def asn_routes(asn):
 	host = 'whois.radb.net'
