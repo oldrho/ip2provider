@@ -3,13 +3,13 @@
 Check which cloud provider is hosting a particular IP address. Some providers will also have service and region listed
 
 ```
-./ip2provider [flags] [ip]
+./ip2provider.py [flags] [ip]
 ```
 
 ## Installation
 
 ```
-git clone <ADDRESS> *TODO*
+git clone https://github.com/oldrho/ip2provider.git
 cd ip2provider
 pip3 install -r requirements.txt
 ```
