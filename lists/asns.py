@@ -57,6 +57,7 @@ def update():
 		['rackspace', 'AS27357', 'data/rackspace.txt']
 	]
 
+	total = 0
 
 	for row in providers:
 		(provider, asn, file) = row
@@ -67,9 +68,12 @@ def update():
 		for route in routes:
 			data.append('%s %s unknown unknown' % (route, provider))
 
+		total += len(data)
 		with open(file, 'w') as f:
 			f.write("\n".join(data))
 			f.close()
+
+	return total
 
 
 

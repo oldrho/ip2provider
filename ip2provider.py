@@ -41,9 +41,20 @@ def main():
 		help='Output format',
 		default='text'
 		)
+	parser.add_argument(
+		'--update-lists',
+		action='store_true',
+		help='Update route lists'
+		)
 
 	args = parser.parse_args()
 	output_type = None
+
+
+	# Updates
+	if args.update_lists:
+		update()
+		return
 
 	# Addresses
 	if not args.ip:
@@ -64,7 +75,6 @@ def main():
 	if args.output not in output_formats:
 		log.error("Must choose a valid output format: " + ", ".join(output_formats))
 		sys.exit(1)
-
 
 
 	# Results
@@ -148,6 +158,18 @@ def output_raw(data):
 
 
 
+
+
+def update():
+	total = 0
+
+	total += asns.update()
+	total += aws.update()
+	total += azure.update()
+	total += gcp.update()
+	total += oracle.update()
+
+	print("Updated %d entries" % (total))
 
 
 if __name__ == '__main__':

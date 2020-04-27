@@ -77,4 +77,4 @@ def update():
 		f.write("\n".join(results))
 		f.close()
 
-
+	return len(results)
