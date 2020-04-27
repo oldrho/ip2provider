@@ -3,8 +3,9 @@
 import argparse
 import logging
 import sys
-
+import select
 import json
+import glob
 
 import lists.asns as asns
 import lists.aws as aws
@@ -21,6 +22,8 @@ def main():
 	stream = logging.StreamHandler(sys.stderr)
 	stream.setLevel(logging.DEBUG)
 
+	ips = []
+
 
 	# Arguments
 	parser = argparse.ArgumentParser(add_help=True, description='Resolves IPs to their provider details')
@@ -28,7 +31,8 @@ def main():
 	parser.add_argument(
 		'ip',
 		action='store',
-		help='IP(s) to look up (comma separated)'
+		help='IP(s) to look up (comma separated)',
+		nargs='?'
 		)
 	parser.add_argument(
 		'-o',
@@ -43,8 +47,17 @@ def main():
 
 	# Addresses
 	if not args.ip:
-		log.error('Must specify at least one IP address')
-		sys.exit(1)
+		# Check if we're using stdin
+		if select.select([sys.stdin,],[],[],0.0)[0]:
+			for ip in sys.stdin:
+				ips.append(ip.rstrip())
+
+		# No IPs specified
+		else:
+			log.error('Must specify at least one IP address')
+			sys.exit(1)
+	else:
+		ips = args.ip.split(',')
 
 	# Output format
 	output_formats = ['text','json','raw']
@@ -55,7 +68,7 @@ def main():
 
 
 	# Results
-	results = check(args.ip.split(','))
+	results = check(ips)
 	if args.output != 'raw':
 		results = results_clean(results)
 	output(results, args.output)
