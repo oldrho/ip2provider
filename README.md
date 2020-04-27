@@ -16,6 +16,10 @@ pip3 install -r requirements.txt
 
 ## Usage
 
+**Arguments**
+
+* `ip`: One or more comma-separated IP addresses
+
 **Flags**
 
 * `-o`, `--output`: Select an output format (default `text`)
@@ -24,10 +28,23 @@ pip3 install -r requirements.txt
 	`raw` will output all results in a JSON array without filtering
 * `--update-lists`: Update the route lists for each provider
 
+**Piped**
+
+```
+cat ip_addresses.txt | ./ip2provider.py
+```
+One IP address per line
+
 ## Notes
 
 **Supported Providers**
 
-* Microsoft Azure (Public and Government Clouds)
 * Amazon Web Services (AWS)
+* Microsoft Azure (Public and Government Clouds)
+* Google Cloud Platform (GCP)
+* IBM/SoftLayer Cloud
 * Oracle Cloud
+* Alibaba Cloud
+* Linode
+* DigitalOcean
+
