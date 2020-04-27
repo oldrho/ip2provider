@@ -6,11 +6,9 @@ import requests
 # https://download.microsoft.com/download/6/4/D/64DB03BF-895B-4173-A8B1-BA4AD5D4DF22/ServiceTags_AzureGovernment_20200420.json
 
 def update():
-	results = []
 
 	def update_azure(provider, url, file):
-		nonlocal results
-
+		results = []
 
 		# Get JSON data from Azure
 		response = requests.get(url)
