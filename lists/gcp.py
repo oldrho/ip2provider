@@ -3,36 +3,6 @@ import dns.resolver
 
 # DNS TXT _cloud-netblocks.googleusercontent.com
 
-def check(ips):
-	if isinstance(ips, str):
-		ips = [ips]
-
-	# Initialize results
-	results = []
-
-	# Load CIDR ranges
-	with open("data/gcp.txt", "r") as f:
-		data = f.read().splitlines()
-		f.close()
-
-	# Loop through each CIDR entry
-	for entry in data:
-		(cidr, provider, service, region) = entry.split()
-		# Loop through each IP
-		for ip in ips:
-
-			if ipaddress.ip_address(ip) in ipaddress.ip_network(cidr):
-				results.append({
-					'ip':ip,
-					'provider': provider,
-					'service': service,
-					'region': region
-					})
-
-	return results
-
-
-
 def update():
 	results = []
 	service = ''

@@ -6,6 +6,7 @@ import sys
 import select
 import json
 import glob
+import ipaddress
 
 import lists.asns as asns
 import lists.aws as aws
@@ -92,16 +93,38 @@ def check(ips):
 	if isinstance(ips, str):
 		ips = [ips]
 
+	# Initialize results
+	results = []
 
-	# Check each provider
-	checks = []
-	checks += asns.check(ips)
-	checks += aws.check(ips)
-	checks += azure.check(ips)
-	checks += gcp.check(ips)
-	checks += oracle.check(ips)
+	# Files
+	files = glob.glob('data/*')
 
-	return checks
+	def check_file(file):
+		nonlocal results
+		
+		# Load json data
+		with open(file, "r") as f:
+			data = f.read().splitlines()
+			f.close()
+
+		# Loop each route
+		for route in data:
+			(cidr,provider,service,region) = route.split()
+
+			# Loop each IP
+			for ip in ips:
+				if ipaddress.ip_address(ip) in ipaddress.ip_network(cidr):
+					results.append({
+						'ip': ip,
+						'provider': provider,
+						'service': service,
+						'region': region
+						})
+
+	for file in files:
+		check_file(file)
+
+	return results
 
 def results_clean(results):
 

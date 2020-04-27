@@ -3,7 +3,7 @@
 Check which cloud provider is hosting a particular IP address. Some providers will also have service and region listed
 
 ```
-./ip2provider [flags] <ip>
+./ip2provider [flags] [ip]
 ```
 
 ## Installation
@@ -22,6 +22,7 @@ pip3 install -r requirements.txt
 	`text` will output one result per line
 	`json` will output a JSON array
 	`raw` will output all results in a JSON array without filtering
+* `--update-lists`: Update the route lists for each provider
 
 ## Notes
 

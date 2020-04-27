@@ -5,42 +5,6 @@ import requests
 # https://download.microsoft.com/download/7/1/D/71D86715-5596-4529-9B13-DA13A5DE5B63/ServiceTags_Public_20200420.json
 # https://download.microsoft.com/download/6/4/D/64DB03BF-895B-4173-A8B1-BA4AD5D4DF22/ServiceTags_AzureGovernment_20200420.json
 
-def check(ips):
-	if isinstance(ips, str):
-		ips = [ips]
-
-	# Initialize results
-	results = []
-
-	def check_file(file):
-		nonlocal results
-
-
-		# Load json data
-		with open(file, "r") as f:
-			data = f.read().splitlines()
-			f.close()
-
-		# Loop each route
-		for route in data:
-			(cidr,provider,service,region) = route.split()
-
-			# Loop each IP
-			for ip in ips:
-				if ipaddress.ip_address(ip) in ipaddress.ip_network(cidr):
-					results.append({
-						'ip': ip,
-						'provider': provider,
-						'service': service,
-						'region': region
-						})
-
-	check_file('data/azure.txt')
-	check_file('data/azure-gov.txt')
-
-	return results
-
-
 def update():
 	results = []
 

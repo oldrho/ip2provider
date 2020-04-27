@@ -4,36 +4,6 @@ import requests
 
 # https://docs.cloud.oracle.com/en-us/iaas/tools/public_ip_ranges.json
 
-def check(ips):
-	if isinstance(ips, str):
-		ips = [ips]
-
-	# Initialize results
-	results = []
-
-	# Load json data
-	with open("data/oracle.txt", "r") as f:
-		data = f.read().splitlines()
-		f.close()
-
-	# Loop each route
-	for route in data:
-		(cidr,provider,service,region) = route.split()
-
-		# Loop each IP
-		for ip in ips:
-			if ipaddress.ip_address(ip) in ipaddress.ip_network(cidr):
-				results.append({
-					'ip': ip,
-					'provider': provider,
-					'service': service,
-					'region': region
-					})
-
-	return results
-
-
-
 def update():
 	results = []
 
