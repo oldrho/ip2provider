@@ -1156,6 +1156,7 @@
 52.94.198.96/28 aws AMAZON ap-southeast-1
 52.94.249.160/28 aws AMAZON me-south-1
 52.144.194.128/26 aws AMAZON us-west-2
+52.144.201.64/26 aws AMAZON ca-central-1
 52.144.210.128/26 aws AMAZON eu-west-1
 52.144.211.202/31 aws AMAZON eu-west-2
 52.219.112.0/21 aws AMAZON us-west-1
