@@ -1,8 +1,6 @@
 import ipaddress
 import socket
 
-# https://ip-ranges.amazonaws.com/ip-ranges.json
-
 def update():
 	providers = [
 		['alibaba', 'AS45102', 'data/alibaba.txt'],
