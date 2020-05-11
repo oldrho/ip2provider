@@ -1120,6 +1120,7 @@
 99.83.128.0/17 aws AMAZON GLOBAL
 150.222.243.33/32 aws AMAZON eu-south-1
 13.248.123.0/24 aws AMAZON eu-central-1
+15.230.35.0/24 aws AMAZON us-east-1
 52.93.249.0/24 aws AMAZON us-east-1
 150.222.129.126/31 aws AMAZON eu-central-1
 150.222.240.131/32 aws AMAZON eu-south-1
