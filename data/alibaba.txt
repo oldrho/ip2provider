@@ -44840,6 +44840,7 @@
 103.145.72.0/24 alibaba unknown unknown
 45.158.183.0/24 alibaba unknown unknown
 122.254.76.0/23 alibaba unknown unknown
+198.44.244.0/22 alibaba unknown unknown
 198.11.128.0/18 alibaba unknown unknown
 205.204.111.0/24 alibaba unknown unknown
 47.88.0.0/14 alibaba unknown unknown
