@@ -11202,6 +11202,7 @@
 156.245.32.0/19 alibaba unknown unknown
 154.212.192.0/18 alibaba unknown unknown
 198.44.244.0/22 alibaba unknown unknown
+185.78.106.0/23 alibaba unknown unknown
 185.218.176.0/22 alibaba unknown unknown
 89.219.0.0/22 alibaba unknown unknown
 62.128.96.0/22 alibaba unknown unknown
