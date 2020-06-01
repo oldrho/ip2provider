@@ -1431,6 +1431,7 @@
 118.193.97.128/25 aws AMAZON GLOBAL
 15.177.91.0/24 aws AMAZON af-south-1
 15.230.39.102/31 aws AMAZON us-east-2
+15.230.41.0/24 aws AMAZON cn-north-1
 35.155.0.0/16 aws AMAZON us-west-2
 52.144.230.0/26 aws AMAZON ap-northeast-1
 54.210.0.0/15 aws AMAZON us-east-1
