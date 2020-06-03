@@ -624,6 +624,7 @@
 150.222.240.207/32 aws AMAZON eu-south-1
 15.221.4.0/23 aws AMAZON us-east-1
 15.230.39.110/31 aws AMAZON us-east-2
+15.230.48.0/24 aws AMAZON eu-north-1
 52.144.211.64/26 aws AMAZON eu-west-2
 150.222.109.0/24 aws AMAZON ca-central-1
 150.222.208.68/31 aws AMAZON af-south-1
