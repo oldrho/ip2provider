@@ -172,6 +172,7 @@
 140.204.52.128/25 oracle OSN ap-chuncheon-1
 158.101.192.0/19 oracle OCI eu-amsterdam-1
 193.123.32.0/20 oracle OCI eu-amsterdam-1
+193.123.48.0/21 oracle OCI eu-amsterdam-1
 62.115.179.220/31 oracle OSN eu-amsterdam-1
 62.115.179.228/31 oracle OSN eu-amsterdam-1
 134.70.104.0/22 oracle OSN/OBJECT_STORAGE eu-amsterdam-1
