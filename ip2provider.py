@@ -13,6 +13,7 @@ import lists.aws as aws
 import lists.azure as azure
 import lists.gcp as gcp
 import lists.oracle as oracle
+import lists.cloudflare as cloudflare
 
 
 
@@ -191,6 +192,7 @@ def update():
 	total += azure.update()
 	total += gcp.update()
 	total += oracle.update()
+	total += cloudflare.update()
 
 	print("Updated %d entries" % (total))
 
