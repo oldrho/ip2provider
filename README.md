@@ -48,3 +48,4 @@ One IP address per line
 * Linode
 * DigitalOcean
 * RackSpace
+* Cloudspace
