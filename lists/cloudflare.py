@@ -14,7 +14,7 @@ def update():
 		return False
 
 	soup = bs(response.text, features='html.parser')
-	elements = soup.find('h3',string='IPv4').parent.find_all('li')
+	elements = soup.find('h2',string='IPv4').parent.find_all('li')
 
 	for elem in elements:
 		cidr = elem.text
