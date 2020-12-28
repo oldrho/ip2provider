@@ -1650,6 +1650,7 @@
 66.22.33.0/24 ibm unknown unknown
 170.203.249.0/24 ibm unknown unknown
 103.230.54.0/24 ibm unknown unknown
+154.6.28.0/23 ibm unknown unknown
 160.116.216.0/22 ibm unknown unknown
 160.116.220.0/22 ibm unknown unknown
 160.116.224.0/22 ibm unknown unknown
