@@ -61676,4 +61676,7 @@
 240b:4000:fe00::/39 alibaba unknown unknown
 240b:4000:fe00::/40 alibaba unknown unknown
 240b:4000:ff00::/40 alibaba unknown unknown
+240b:4003::/32 alibaba unknown unknown
+240b:4003::/48 alibaba unknown unknown
+240b:4003:3e8::/48 alibaba unknown unknown
 2600:3100::/28 alibaba unknown unknown
