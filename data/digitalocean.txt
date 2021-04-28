@@ -756,6 +756,7 @@
 164.92.64.0/18 digitalocean unknown unknown
 152.42.128.0/17 digitalocean unknown unknown
 159.223.0.0/16 digitalocean unknown unknown
+143.198.128.0/20 digitalocean unknown unknown
 2400:6180:100::/40 digitalocean unknown unknown
 2400:6180:1::/48 digitalocean unknown unknown
 2400:6180::/48 digitalocean unknown unknown

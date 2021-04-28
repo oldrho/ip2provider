@@ -77,6 +77,7 @@
 132.226.32.0/19 oracle OCI us-ashburn-1
 150.136.0.0/16 oracle OCI us-ashburn-1
 152.70.32.0/22 oracle OCI us-ashburn-1
+152.70.192.0/20 oracle OCI us-ashburn-1
 158.101.96.0/19 oracle OCI us-ashburn-1
 193.122.128.0/17 oracle OCI us-ashburn-1
 193.123.128.0/19 oracle OCI us-ashburn-1
