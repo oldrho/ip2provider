@@ -1,28 +1,18 @@
-import ipaddress
 import requests
-from bs4 import BeautifulSoup as bs
 
-# https://www.cloudflare.com/en-ca/ips/
-# Texts lists 404, must be scraped
+CLOUDFLARE_IPV4_URL = "https://www.cloudflare.com/ips-v4"
 
 def update():
-	results = []
+        results = []
+        r = requests.get(CLOUDFLARE_IPV4_URL)
+        if r.status_code != 200:
+                return False
 
-	response = requests.get('https://www.cloudflare.com/en-ca/ips/')
+        for cidr in r.text.splitlines():
+                results.append("%s %s unknown unknown" % (cidr, 'cloudflare'))
 
-	if response.status_code != 200:
-		return False
+        with open('data/cloudflare.txt', 'w') as f:
+                f.write('\n'.join(results))
+                f.close()
 
-	soup = bs(response.text, features='html.parser')
-	elements = soup.find('h2',string='IPv4').parent.find_all('li')
-
-	for elem in elements:
-		cidr = elem.text
-		results.append("%s %s unknown unknown" % (cidr, 'cloudflare'))
-
-	# Write results to file
-	with open('data/cloudflare.txt', 'w') as f:
-		f.write("\n".join(results))
-		f.close()
-
-	return len(results)
+        return len(results)

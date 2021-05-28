@@ -1,2 +1,4 @@
 dnspython==1.16.0
 beautifulsoup4==4.9.3
+requests==2.25.1
+netaddr-0.8.0
