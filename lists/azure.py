@@ -45,8 +45,7 @@ def update():
 				continue
 
 			for cidr in group['properties']['addressPrefixes']:
-				if isinstance(ipaddress.ip_network(cidr), ipaddress.IPv4Network):
-					results.append("%s %s %s %s" % (cidr, provider, service, region))
+				results.append("%s %s %s %s" % (cidr, provider, service, region))
 
 
 		# Write to file
