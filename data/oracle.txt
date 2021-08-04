@@ -290,6 +290,7 @@
 140.83.48.0/20 oracle OCI ap-osaka-1
 140.83.80.0/21 oracle OCI ap-osaka-1
 150.230.0.0/21 oracle OCI ap-osaka-1
+150.230.56.0/21 oracle OCI ap-osaka-1
 152.70.80.0/21 oracle OCI ap-osaka-1
 168.138.32.0/19 oracle OCI ap-osaka-1
 134.70.112.0/22 oracle OSN/OBJECT_STORAGE ap-osaka-1
