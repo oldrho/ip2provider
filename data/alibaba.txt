@@ -11816,7 +11816,6 @@
 170.33.254.0/23 alibaba unknown unknown
 170.33.254.0/24 alibaba unknown unknown
 170.33.255.0/24 alibaba unknown unknown
-103.145.72.0/24 alibaba unknown unknown
 8.208.0.0/13 alibaba unknown unknown
 8.208.0.0/14 alibaba unknown unknown
 8.208.0.0/15 alibaba unknown unknown
