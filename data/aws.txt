@@ -3009,6 +3009,7 @@
 15.221.40.0/21 aws AMAZON sa-east-1
 15.230.39.144/31 aws AMAZON us-east-2
 15.230.149.0/31 aws AMAZON ap-southeast-2
+15.230.206.0/24 aws AMAZON us-east-1
 18.253.0.0/16 aws AMAZON us-gov-east-1
 52.46.190.244/31 aws AMAZON us-east-1
 52.46.192.0/20 aws AMAZON eu-north-1
