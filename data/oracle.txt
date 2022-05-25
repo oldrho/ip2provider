@@ -202,6 +202,7 @@
 147.154.48.0/21 oracle OSN us-ashburn-1
 129.151.64.0/19 oracle OCI uk-cardiff-1
 144.24.224.0/21 oracle OCI uk-cardiff-1
+129.148.200.0/21 oracle OSN uk-cardiff-1
 129.149.16.0/23 oracle OSN uk-cardiff-1
 129.149.20.0/23 oracle OSN uk-cardiff-1
 129.149.22.0/25 oracle OSN uk-cardiff-1
