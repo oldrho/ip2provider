@@ -35,6 +35,7 @@
 147.154.96.0/20 oracle OSN us-phoenix-1
 147.154.112.0/21 oracle OSN us-phoenix-1
 147.154.120.0/22 oracle OSN us-phoenix-1
+192.18.200.0/21 oracle OSN us-phoenix-1
 192.29.96.0/21 oracle OSN us-phoenix-1
 192.29.104.0/22 oracle OSN us-phoenix-1
 129.148.64.0/18 oracle OCI uk-london-1
