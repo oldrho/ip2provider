@@ -236,6 +236,7 @@
 139.144.64.0/20 linode unknown unknown
 139.144.80.0/21 linode unknown unknown
 139.144.88.0/21 linode unknown unknown
+139.144.96.0/21 linode unknown unknown
 45.118.132.0/22 linode unknown unknown
 45.118.132.0/23 linode unknown unknown
 45.118.132.0/24 linode unknown unknown
