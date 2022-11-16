@@ -1499,6 +1499,7 @@
 45.145.248.0/24 ibm unknown unknown
 43.245.168.0/24 ibm unknown unknown
 66.22.77.0/24 ibm unknown unknown
+66.22.78.0/24 ibm unknown unknown
 160.116.220.0/22 ibm unknown unknown
 160.116.224.0/22 ibm unknown unknown
 160.116.228.0/22 ibm unknown unknown
