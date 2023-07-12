@@ -1745,7 +1745,6 @@
 207.44.128.0/17 ibm unknown unknown
 69.93.0.0/16 ibm unknown unknown
 206.217.194.0/24 ibm unknown unknown
-66.179.2.0/23 ibm unknown unknown
 75.125.64.0/19 ibm unknown unknown
 50.22.0.0/15 ibm unknown unknown
 205.201.128.0/21 ibm unknown unknown
