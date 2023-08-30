@@ -2442,5 +2442,3 @@
 2A02:CB43:F::/48 ibm unknown unknown
 2604:1740:FFFF::/48 ibm unknown unknown
 2620:E3:4000::/48 ibm unknown unknown
-2602:fafe:100::/40 ibm unknown unknown
-2602:fafe:fff::/48 ibm unknown unknown
