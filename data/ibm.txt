@@ -2266,7 +2266,6 @@
 2a0f:2740::/29 ibm unknown unknown
 2a02:2498:3::/48 ibm unknown unknown
 2a05:a880:dc20::/48 ibm unknown unknown
-2402:f740::/36 ibm unknown unknown
 2403:a280:8000::/36 ibm unknown unknown
 2402:2f80::/48 ibm unknown unknown
 2001:df5:9000::/48 ibm unknown unknown
