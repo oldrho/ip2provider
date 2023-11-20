@@ -7,18 +7,25 @@ from bs4 import BeautifulSoup as bs
 
 def update():
 	results = []
+	urls = [
+		'https://www.cloudflare.com/ips-v4/',
+		'https://www.cloudflare.com/ips-v6/',
+		]
 
-	response = requests.get('https://www.cloudflare.com/en-ca/ips/')
+	for url in urls:
+		response = requests.get(url)
 
-	if response.status_code != 200:
-		return False
+		if response.status_code != 200:
+			return False
 
-	soup = bs(response.text, features='html.parser')
-	elements = soup.find('h2',string='IPv4').parent.find_all('li')
+		cidrs = response.text.split('\n')
+		for cidr in cidrs:
+			try:
+				ipaddress.ip_network(cidr)
+			except:
+				continue
 
-	for elem in elements:
-		cidr = elem.text
-		results.append("%s %s unknown unknown" % (cidr, 'cloudflare'))
+			results.append("%s %s unknown unknown" % (cidr, 'cloudflare'))
 
 	# Write results to file
 	with open('data/cloudflare.txt', 'w') as f:
