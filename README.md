@@ -23,9 +23,9 @@ pip3 install -r requirements.txt
 **Flags**
 
 * `-o`, `--output`: Select an output format (default `text`)
-	`text` will output one result per line
-	`json` will output a JSON array
-	`raw` will output all results in a JSON array without filtering
+  * `text` will output one result per line
+  * `json` will output a JSON array
+  * `raw` will output all results in a JSON array without filtering
 * `--update-lists`: Update the route lists for each provider
 
 **Piped**
