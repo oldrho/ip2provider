@@ -849,7 +849,6 @@
 52.127.8.0/27 azure-gov AzureSQL usgovarizona
 52.127.9.0/27 azure-gov AzureSQL usgovarizona
 52.127.12.56/29 azure-gov AzureSQL usgovarizona
-52.127.12.228/30 azure-gov AzureSQL usgovarizona
 52.127.13.64/27 azure-gov AzureSQL usgovarizona
 52.127.14.64/27 azure-gov AzureSQL usgovarizona
 52.127.16.0/27 azure-gov AzureSQL usgovarizona
