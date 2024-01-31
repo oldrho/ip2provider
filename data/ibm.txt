@@ -30,7 +30,6 @@
 37.58.64.0/19 ibm unknown unknown
 37.58.96.0/20 ibm unknown unknown
 37.58.112.0/20 ibm unknown unknown
-37.60.254.0/24 ibm unknown unknown
 37.130.224.0/21 ibm unknown unknown
 37.130.224.0/21 ibm unknown unknown
 37.130.224.0/24 ibm unknown unknown
