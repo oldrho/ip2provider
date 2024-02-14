@@ -342,7 +342,6 @@
 82.97.200.0/24 ibm unknown unknown
 82.97.200.0/24 ibm unknown unknown
 85.203.37.0/24 ibm unknown unknown
-86.105.160.0/22 ibm unknown unknown
 86.106.120.0/24 ibm unknown unknown
 89.32.203.0/24 ibm unknown unknown
 89.32.203.0/24 ibm unknown unknown
