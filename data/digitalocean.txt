@@ -457,6 +457,7 @@
 147.182.240.0/20 digitalocean unknown unknown
 152.42.128.0/17 digitalocean unknown unknown
 152.42.128.0/20 digitalocean unknown unknown
+152.42.144.0/22 digitalocean unknown unknown
 152.42.160.0/19 digitalocean unknown unknown
 157.230.0.0/16 digitalocean unknown unknown
 157.230.0.0/20 digitalocean unknown unknown
