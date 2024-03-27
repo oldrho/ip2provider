@@ -627,7 +627,6 @@
 34.3.16.0/20 gcp GoogleService unknown
 34.3.32.0/19 gcp GoogleService unknown
 34.3.64.0/18 gcp GoogleService unknown
-34.3.128.0/17 gcp GoogleService unknown
 34.4.0.0/14 gcp GoogleService unknown
 34.8.0.0/13 gcp GoogleService unknown
 34.34.192.0/20 gcp GoogleService unknown
