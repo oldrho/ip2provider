@@ -3,7 +3,7 @@ import requests
 
 CLOUDFLARE_IP_URLS = [
     'https://www.cloudflare.com/ips-v4/',
-    'https://www.cloudflare.com/ips-v4/',
+    'https://www.cloudflare.com/ips-v6/',
     ]
 
 def update():
