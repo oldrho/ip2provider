@@ -745,6 +745,7 @@
 192.29.91.192/26 oracle OSN ca-montreal-1
 192.29.92.0/22 oracle OSN ca-montreal-1
 84.8.96.0/19 oracle OCI me-riyadh-1
+79.76.16.0/23 oracle OSN me-riyadh-1
 84.8.64.0/22 oracle OSN me-riyadh-1
 84.8.68.0/25 oracle OSN me-riyadh-1
 84.8.72.0/22 oracle OSN me-riyadh-1

@@ -1504,7 +1504,6 @@
 2606:2e00:800f::/48 ibm unknown unknown
 2606:2e00:8010::/48 ibm unknown unknown
 2606:2e00:8011::/48 ibm unknown unknown
-2606:2e00:8011::/48 ibm unknown unknown
 2606:2e00:8012::/48 ibm unknown unknown
 2606:2e00:8013::/48 ibm unknown unknown
 2606:2e00:8014::/48 ibm unknown unknown
