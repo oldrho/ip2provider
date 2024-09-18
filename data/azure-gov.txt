@@ -1500,6 +1500,7 @@
 52.227.173.141/32 azure-gov SCCservice usgovvirginia
 52.227.182.149/32 azure-gov SCCservice usgovvirginia
 52.227.183.146/32 azure-gov SCCservice usgovvirginia
+62.11.9.48/28 azure-gov SCCservice usgovvirginia
 2001:489a:2209:2::/117 azure-gov SCCservice usgovvirginia
 2001:489a:3103:3::4e0/123 azure-gov SCCservice usgovvirginia
 52.127.58.184/29 azure-gov ServiceFabric usdodcentral
