@@ -113,6 +113,7 @@
 132.226.160.0/21 oracle OCI sa-saopaulo-1
 132.226.240.0/20 oracle OCI sa-saopaulo-1
 136.248.64.0/18 oracle OCI sa-saopaulo-1
+137.131.128.0/17 oracle OCI sa-saopaulo-1
 140.238.176.0/20 oracle OCI sa-saopaulo-1
 140.238.236.0/22 oracle OCI sa-saopaulo-1
 144.22.64.0/18 oracle OCI sa-saopaulo-1
