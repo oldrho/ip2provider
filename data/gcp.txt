@@ -910,6 +910,7 @@
 66.249.64.0/19 gcp GoogleService unknown
 70.32.128.0/19 gcp GoogleService unknown
 72.14.192.0/18 gcp GoogleService unknown
+74.114.24.0/21 gcp GoogleService unknown
 74.125.0.0/16 gcp GoogleService unknown
 104.154.0.0/20 gcp GoogleService unknown
 104.154.112.0/24 gcp GoogleService unknown
