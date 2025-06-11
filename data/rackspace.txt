@@ -117,7 +117,6 @@
 204.232.224.0/19 rackspace unknown unknown
 204.232.224.0/19 rackspace unknown unknown
 206.188.0.0/19 rackspace unknown unknown
-206.188.192.0/20 rackspace unknown unknown
 206.188.208.0/22 rackspace unknown unknown
 207.97.192.0/18 rackspace unknown unknown
 207.97.192.0/18 rackspace unknown unknown
