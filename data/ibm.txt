@@ -850,7 +850,6 @@
 172.94.86.0/24 ibm unknown unknown
 172.94.88.0/24 ibm unknown unknown
 172.94.95.0/24 ibm unknown unknown
-172.94.99.0/24 ibm unknown unknown
 172.94.103.0/24 ibm unknown unknown
 172.111.167.0/24 ibm unknown unknown
 172.111.189.0/24 ibm unknown unknown
