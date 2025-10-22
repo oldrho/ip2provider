@@ -843,7 +843,6 @@
 170.225.246.0/24 ibm unknown unknown
 170.225.247.0/24 ibm unknown unknown
 170.226.39.0/24 ibm unknown unknown
-172.94.103.0/24 ibm unknown unknown
 172.111.167.0/24 ibm unknown unknown
 172.111.189.0/24 ibm unknown unknown
 172.111.254.0/23 ibm unknown unknown
