@@ -702,7 +702,6 @@
 167.88.96.0/20 ibm unknown unknown
 167.88.103.0/24 ibm unknown unknown
 167.160.96.0/19 ibm unknown unknown
-167.160.113.0/24 ibm unknown unknown
 168.1.0.0/16 ibm unknown unknown
 168.1.0.0/18 ibm unknown unknown
 168.1.64.0/18 ibm unknown unknown
