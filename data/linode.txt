@@ -138,6 +138,7 @@
 104.105.96.0/19 linode unknown unknown
 104.105.128.0/19 linode unknown unknown
 104.105.160.0/19 linode unknown unknown
+104.105.192.0/19 linode unknown unknown
 104.200.16.0/21 linode unknown unknown
 104.200.24.0/22 linode unknown unknown
 104.200.28.0/22 linode unknown unknown
