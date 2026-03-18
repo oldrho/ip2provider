@@ -1,7 +1,6 @@
 5.10.64.0/18 ibm unknown unknown
 5.10.64.0/19 ibm unknown unknown
 5.10.96.0/19 ibm unknown unknown
-5.62.33.0/24 ibm unknown unknown
 5.83.159.0/24 ibm unknown unknown
 5.153.0.0/18 ibm unknown unknown
 6.255.99.0/24 ibm unknown unknown
