@@ -816,6 +816,7 @@
 168.144.48.0/22 digitalocean unknown unknown
 168.144.64.0/20 digitalocean unknown unknown
 168.144.80.0/20 digitalocean unknown unknown
+168.144.96.0/20 digitalocean unknown unknown
 170.64.128.0/17 digitalocean unknown unknown
 170.64.128.0/18 digitalocean unknown unknown
 170.64.192.0/19 digitalocean unknown unknown
