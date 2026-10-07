@@ -1040,7 +1040,6 @@
 191.241.100.0/22 ibm unknown unknown
 191.241.104.0/21 ibm unknown unknown
 191.241.112.0/20 ibm unknown unknown
-192.40.176.0/20 ibm unknown unknown
 192.86.36.0/24 ibm unknown unknown
 192.86.37.0/24 ibm unknown unknown
 192.86.37.0/28 ibm unknown unknown
