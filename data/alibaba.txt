@@ -70849,5 +70849,7 @@
 2600:3100::/28 alibaba unknown unknown
 2600:3100::/28 alibaba unknown unknown
 2600:3100::/28 alibaba unknown unknown
+2602:ff22::/40 alibaba unknown unknown
+2602:ff22::/40 alibaba unknown unknown
 2a0b:da40::/29 alibaba unknown unknown
 2a0b:da40::/29 alibaba unknown unknown
