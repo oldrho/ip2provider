@@ -180,6 +180,7 @@
 67.18.0.0/18 ibm unknown unknown
 67.18.64.0/18 ibm unknown unknown
 67.18.128.0/18 ibm unknown unknown
+67.18.192.0/19 ibm unknown unknown
 67.214.212.0/24 ibm unknown unknown
 67.214.212.0/24 ibm unknown unknown
 67.214.223.0/24 ibm unknown unknown
