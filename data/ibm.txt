@@ -355,7 +355,6 @@
 104.195.80.0/23 ibm unknown unknown
 104.207.183.0/24 ibm unknown unknown
 104.207.188.0/24 ibm unknown unknown
-104.222.131.0/24 ibm unknown unknown
 104.222.145.0/24 ibm unknown unknown
 104.225.216.0/22 ibm unknown unknown
 104.245.8.0/24 ibm unknown unknown

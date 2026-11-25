@@ -27520,6 +27520,7 @@
 20.17.126.76/30 azure PowerBI malaysiawest
 20.17.126.80/29 azure PowerBI malaysiawest
 74.156.26.80/29 azure PowerBI malaysiawest
+74.156.38.32/28 azure PowerBI malaysiawest
 2603:1040:1602:2::320/123 azure PowerBI malaysiawest
 2603:1040:1602:2::340/122 azure PowerBI malaysiawest
 68.155.79.224/27 azure PowerBI mexicocentral
